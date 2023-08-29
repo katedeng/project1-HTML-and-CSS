@@ -1,0 +1,56 @@
+#container {
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.box {
+    width: 100px;
+    height: 150px;
+    background: #dfe1e7;
+    font: Tahoma;
+    font-size: 40px;
+    text-align: left;
+    border-left: 10px #D0D0FF dotted;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color ;
+
+
+}
+
+.box:hover {
+    background-color: yellow;
+    color: goldenrod;
+}
+
+#box-B,#box-D {
+    background: #eeeff2;
+}
+#box-D {
+    background-color: blue;
+    color:white;
+}
+#box-A {
+    background-color: yellow;
+}
+#box-F {
+    display: flex;
+    border:4px black solid;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 0; /* Position at the top */
+    right: 0; /* Position at the right */
+    border-left: 10px #D0D0FF dotted;
+
+
+}
+
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    margin:8px;
+    padding:0;
+}

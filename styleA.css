@@ -1,0 +1,39 @@
+
+        #container {
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            flex-direction: column;
+            margin-bottom:5px;
+            margin-top:5px;
+        }
+        
+        .box {
+            width: 100px;
+            height: 100px;
+            background: #dfe1e7;
+            font: Tahoma;
+            font-size: 40px;
+            text-align: center;
+            border-top: 1px #687291 solid;
+            margin-bottom: 10px,auto;
+
+        }
+
+        #box-B,#box-D {
+            background: #eeeff2;
+        }
+
+        #box-F {
+            background: #687291;
+            border:4px black solid;
+            text-align: center;
+            vertical-align: middle;
+
+        }
+
+        body {
+            font-family: Tahoma, Arial, sans-serif;
+            margin:8px;
+            padding:0;
+        }
